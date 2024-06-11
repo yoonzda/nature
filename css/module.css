@@ -1,0 +1,77 @@
+:root{
+    --YE:#fdffc1;
+    --GN:#486245;
+
+    --BB01:#75759c;
+    --BB02:#4a4a6c;
+    --BB03:#494f5a;
+    --BB04:#13134b;
+    
+    --GS01:#fff;
+    --GS02:#eee;
+    --GS03:#bbb;
+    --GS04:#999;
+    --GS05:#666;
+    --GS06:#444;
+    --GS07:#000;
+
+    --sp10: 10px;
+    --sp15: 15px;
+    --sp20: 20px;
+    --sp30: 30px;
+    --sp40: 40px;
+    --sp50: 50px;
+    --sp60: 60px;
+    --sp80: 80px;
+    --sp100: 100px;
+    --sp200: 200px;
+}
+
+[class^='pl']{font-family: 'Plus Jakarta Sans';}
+[class^='me']{font-family: 'Merriweather';}
+
+[class*='L']{font-weight: 300;}
+[class*='R']{font-weight: 400;}
+[class*='M']{font-weight: 500;}
+[class*='B']{font-weight: 700;}
+[class*='E']{font-weight: 800;}
+
+@media screen and (max-width: 1439.9px){
+    aside a,
+    section input{font-size: 10px;}
+
+    header a,
+    section a,
+    section p,
+    section span{font-size: 14px;}
+
+    #portfolio b{font-size: 20px;}
+
+    section div,
+    #home h2 *{font-size: 16px;}
+
+    section h2{font-size: 50px;}
+}
+
+@media screen and (min-width: 1440px){
+    aside a,
+    section input{font-size: 13px;}
+
+    header a,
+    section a,
+    section p,
+    section span{font-size: 16px;}
+
+    #portfolio b{font-size: 20px;}
+
+    section div,
+    #home h2 *{font-size: 30px;}
+
+    #portfolio h2{font-size: 60px;}
+
+    #about h2,
+    #contact h2{font-size: 120px;}
+
+    #home h2,
+    #blog h2{font-size: 150px;}
+}
